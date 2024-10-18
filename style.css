@@ -826,15 +826,15 @@ section{
     }
 
     .home .home-content .boas-vindas .texto h1{
-        font-size: 15px; 
+        font-size: 1.8rem; 
     }
 
     .home .home-content .boas-vindas .texto h2{
-        font-size: 10px;
+        font-size: 1.2rem;
     }
 
     .home .home-content .boas-vindas .texto p{
-        font-size: 6px;
+        font-size: .6rem;
     }
 
     .home .home-content .boas-vindas .logo-TADS img{
@@ -848,20 +848,20 @@ section{
     }
 
     .projetos .projetos-tec .container1 h2{
-        font-size:14px;
+        font-size: 1.2rem;
     }
 
     .projetos .projetos-tec .container1 p{
-        font-size: 10px;
+        font-size: .6rem;
         text-align: justify;
     }
 
     .projetos .projetos-tec .container2 h2{
-        font-size: 10px;
+        font-size: 1.2rem;
     }
 
     .projetos .projetos-tec .container2 p{
-        font-size: 10px;
+        font-size: .6rem;
     }
 
     .projetos .projetos-tec .container2 .video iframe{
@@ -869,43 +869,59 @@ section{
         height: auto;
     }
 
-    .Material{
-        grid-template-columns: 1fr;
-        justify-content: center;
+
+    .container1, .container2 {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
-    .material .container1 h2{
-        font-size: 10px;
 
+    h2 {
+        font-size: 1.5rem; /* Responsive heading size */
+        margin-bottom: 10px;
     }
 
-    .material .container1 h4{
-        font-size: 8px;
+    h4 {
+        font-size: 1.1rem;
+        line-height: 1.4; /* Improve readability */
     }
 
-    .material .container1 figure img{
-        width: 150px;
-        height: auto;
+    figure {
+        margin: 0;
+        text-align: center;
     }
 
-    .material .container2 h2{
-        font-size: 1.2rem;
+    figure img {
+            width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Ensure it doesn't exceed the container width */
+        border-radius: 10px; /* Add subtle rounding to the image corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for better appearance */
+    }
+
+    figcaption {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        olor: #555;
     }
 
     .container2 object {
-        height: 70vw; 
+        width: 100%; 
+        height: 40vw; 
+        max-width: 100%;
+        max-height: 200px; 
+        border: none;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     }
 
-    footer p{
-        font-size: .6rem;
+    h2 {
+        font-size: 1rem; 
     }
 
-    .fillter-buttons .button{
-        font-size: .8rem;
-    }
-
-    .footer .social-icons{
-        display: none;
+    h4 {
+        font-size: 0.6rem; 
     }
 }
 
